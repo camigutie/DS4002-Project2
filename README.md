@@ -1,4 +1,4 @@
-# DS4002-Project2: Medical vs. Headline Inflation
+# DS4002-Project2: Medical vs. Headline CPI Time Series Analysis
 ### Group Leader: Camila Gutierrez 
 ### Group 20: Ethan Banerjee, Will Mayer
 
