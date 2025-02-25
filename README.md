@@ -1,4 +1,4 @@
-# DS4002-Project2
+# DS4002-Project2: Medical vs. Headline Inflation
 ### Group Leader: Camila Gutierrez 
 ### Group 20: Ethan Banerjee, Will Mayer
 
