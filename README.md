@@ -30,7 +30,8 @@ SCRIPTS FOLDER:
 ## (3) Result Replication
 
 ### In order to replicate the results of our study, you must follow these steps:
-If you want to fully recreate our dataset, you can run ADD. 
+If you want to fully recreate our dataset, you can run SCRIPTS/make_data.ipynb. You can also used the set we've established at 
+DATA/established.csv
 
 Recreating our dataset requires the following dependencies:
 - matplotlib
