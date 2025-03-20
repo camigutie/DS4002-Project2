@@ -30,12 +30,13 @@ OUTPUT FOLDER:
 
 SCRIPTS FOLDER:
 * **[SCRIPTS/eda.ipynb](SCRIPTS/eda.ipynb)**: This script uses raw data to perform exploratory data analysis and generate visualizations.
-* **[SCRIPTS/make_data.ipynb](SCRIPTS/make_data.ipynb)** This script uses raw data to create the established dataset found at [DATA/established.csv](DATA/established.csv). 
+* **[SCRIPTS/make_data.ipynb](SCRIPTS/make_data.ipynb)**: This script uses raw data to create the established dataset found at [DATA/established.csv](DATA/established.csv).
+* **[SCRIPTS/analysis.ipynb](SCRIPTS/analysis.ipynb)**: This script uses [DATA/established.csv](DATA/established.csv) to perform analysis and generate visualizations.
 
 ## (3) Result Replication
 
 ### In order to replicate the results of our study, you must follow these steps:
-If you want to fully recreate our dataset, you can run SCRIPTS/make_data.ipynb. You can also used the set we've established at DATA/established.csv
+If you want to fully recreate our dataset, you can run [SCRIPTS/make_data.ipynb](SCRIPTS/make_data.ipynb). You can also use the set we've established at [DATA/established.csv](DATA/established.csv)
 
 Recreating our dataset requires the following dependencies:
 - matplotlib
@@ -43,7 +44,7 @@ Recreating our dataset requires the following dependencies:
 - seaborn
 - ARIMA
 
-To recreate our analysis, run analysis.ipynb using ADD.
+To recreate our analysis, run analysis.ipynb.
 
 ## (4) References
 [1] A. B. Martin, M. Hartman, B. Washington, A. Catlin, and The National Health Expenditure Accounts Team, “National Health Expenditures In 2023: Faster Growth As Insurance Coverage And Utilization Increased: Article examines National Health Expenditures in 2023,” Health Affairs, vol. 44, no. 1, pp. 12–22, Jan. 2025, doi: 10.1377/hlthaff.2024.01375.
