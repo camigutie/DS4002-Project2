@@ -11,6 +11,7 @@ Packages:
 * Numpy Package
 * Seaborn Package
 * SARIMAX Statistical Model
+* Pmdarima Package 
 
 Platform: Mac/Windows
 ## (2) A Map of Documentation
