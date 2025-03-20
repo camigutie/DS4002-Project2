@@ -10,7 +10,7 @@ Packages:
 * Matplotlib Package
 * Numpy Package
 * Seaborn Package
-* ARIMA Statistical Model
+* SARIMAX Statistical Model
 
 Platform: Mac/Windows
 ## (2) A Map of Documentation
@@ -19,7 +19,7 @@ This repository contains the contents necessary to implement our sentiment analy
 DATA FOLDER: 
 * **[DATA/DS4002P2_RawData.xlsx](DATA/DS4002P2_RawData.xlsx)**: Our raw dataset with two sheets. The first sheet contains our monthly Consumer Price Index and Medical Consumer Price Index values. This sheet runs from 2000-12-01 to 2025-01-01. The second sheet contains our annual Health Expenditure Index values. This sheet runs from 2001-01-31 to 2021-01-31.
 * **[DATA/established.csv](DATA/established.csv)**: Our established dataset with columns CPI, MCPI, and HEI. The index is the observation date, forward filled to annually at the end of the month. This set runs from 2000-12-31 to 2025-01-31. HEI values were not available from 2021 onwards and are marked as missing.
-* **[SCRIPTS/analysis.ipynb](SCRIPTS/analysis.ipynb)**: This script uses the established dataset train a linear regression model to predit Medical Care CPI based on the Health Expenditures Price Index. The script then uses SARIMA (Seasonal Autoregressive Integrated Moving Average) Model for time series forecasting. It generates scatterplot visualizations for our output folder.
+* **[SCRIPTS/analysis.ipynb](SCRIPTS/analysis.ipynb)**: This script uses the established dataset train a linear regression model to predit Medical Care CPI based on the Health Expenditures Price Index. The script then uses SARIMAX (Seasonal Autoregressive Integrated Moving Average with eXogenous regressors) Model for time series forecasting. It generates scatterplot visualizations for our output folder.
 
 OUTPUT FOLDER: 
 * **[OUTPUT/eda1.png](OUTPUT/eda1.png)**
@@ -42,7 +42,7 @@ Recreating our dataset requires the following dependencies:
 - matplotlib
 - pandas
 - seaborn
-- ARIMA
+- SARIMAX
 
 To recreate our analysis, run analysis.ipynb.
 
